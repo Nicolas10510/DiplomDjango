@@ -1,0 +1,2174 @@
+INFO:root:[2024.11.19 - 18:52:22] LOGOUT User1 ID 2
+ERROR:django.request:Internal Server Error: /user/register
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station\users\views.py", line 100, in register
+    return register_new_user(request)
+  File "C:\Users\user\Desktop\DJ_Station\users\services\register_new_user.py", line 14, in register_new_user
+    log_auth(User.objects.get(username=form.username), AuthLoggingAction.REG)
+                                       ^^^^^^^^^^^^^
+AttributeError: 'UserRegistrationForm' object has no attribute 'username'
+INFO:django.utils.autoreload:C:\Users\user\Desktop\DJ_Station\users\forms.py changed, reloading.
+INFO:root:[2024.11.19 - 19:40:49] LOGIN User7 ID 7
+WARNING:django.request:Not Found: /train/
+WARNING:django.request:Not Found: /train
+WARNING:django.request:Not Found: /train/<int:train_id>/
+WARNING:django.request:Not Found: /schedule/
+WARNING:django.request:Not Found: /schedule/<int:train>/
+INFO:root:[2024.11.19 - 19:53:48] LOGOUT User7 ID 7
+INFO:root:[2024.11.19 - 23:53:28] LOGOUT AdMini ID 8
+INFO:root:[2024.11.19 - 23:54:40] LOGIN AdMini ID 8
+INFO:root:[2024.11.19 - 23:54:46] LOGOUT AdMini ID 8
+INFO:root:[2024.11.19 - 23:58:32] LOGIN AdMini ID 8
+INFO:django.utils.autoreload:C:\Users\user\Desktop\DJ_Station\users\urls.py changed, reloading.
+INFO:root:[2024.11.20 - 18:05:14] LOGOUT AdMini ID 8
+INFO:root:[2024.11.20 - 18:05:34] LOGIN AdMini ID 8
+INFO:django.utils.autoreload:C:\Users\user\Desktop\DJ_Station\trains\models.py changed, reloading.
+INFO:root:[2024.11.20 - 18:24:38] LOGOUT AdMini ID 8
+INFO:root:[2024.11.20 - 18:31:50] LOGIN MC_Doni_71 ID 10
+INFO:root:[2024.11.20 - 18:41:48] LOGOUT MC_Doni_71 ID 10
+INFO:root:[2024.11.20 - 18:42:59] LOGIN MC_Doni_71 ID 10
+INFO:root:[2024.11.20 - 19:42:14] LOGOUT MC_Doni_71 ID 10
+INFO:root:[2024.11.21 - 18:35:38] LOGOUT AdMini ID 8
+INFO:root:[2024.11.21 - 18:36:32] LOGIN MC_Doni_71 ID 10
+INFO:root:[2024.11.21 - 19:50:23] LOGOUT MC_Doni_71 ID 10
+INFO:root:[2024.11.21 - 19:51:00] LOGIN MC_Doni_71 ID 10
+INFO:root:[2025.02.10 - 19:10:56] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 19:17:25] LOGOUT AdMini ID 8
+INFO:root:[2025.02.10 - 19:17:41] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 19:17:42] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 19:17:43] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 19:17:47] LOGOUT AdMini ID 8
+INFO:root:[2025.02.10 - 19:18:55] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 19:24:03] LOGOUT AdMini ID 8
+INFO:root:[2025.02.10 - 19:26:27] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 19:36:16] LOGOUT AdMini ID 8
+WARNING:django.request:Not Found: /фвьшт
+INFO:root:[2025.02.10 - 19:49:16] LOGOUT AdMini ID 8
+INFO:root:[2025.02.10 - 19:49:30] LOGIN MC_Doni_71 ID 10
+INFO:root:[2025.02.10 - 19:50:14] LOGOUT MC_Doni_71 ID 10
+INFO:root:[2025.02.10 - 19:58:27] LOGIN AdMini ID 8
+WARNING:django.security.csrf:Forbidden (CSRF token from POST incorrect.): /admin/login/
+INFO:root:[2025.02.10 - 20:02:00] LOGOUT AdMini ID 8
+INFO:root:[2025.02.10 - 20:02:11] LOGIN AdMini ID 8
+INFO:root:[2025.02.10 - 20:07:14] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 12:34:46] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 14:20:32] LOGIN AdMini ID 8
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /admin/trains/train/1/change/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /admin/trains/train/1/change/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /admin/trains/train/1/change/
+INFO:root:[2025.02.11 - 14:37:45] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 14:39:12] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 14:39:15] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 14:43:14] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 14:43:27] LOGOUT  ID None
+INFO:root:[2025.02.11 - 14:44:25] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 14:44:53] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 14:45:14] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 19:07:16] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 19:07:53] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 19:20:58] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 19:43:58] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 20:22:45] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 20:24:51] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 20:59:59] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 21:00:38] LOGIN AdMini ID 8
+INFO:root:[2025.02.11 - 21:09:13] LOGOUT AdMini ID 8
+INFO:root:[2025.02.11 - 21:10:24] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 10:13:00] LOGOUT AdMini ID 8
+INFO:root:[2025.02.15 - 10:13:19] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 10:18:14] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 10:18:14] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 11:24:33] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 11:44:19] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 11:53:25] LOGIN AdMini ID 8
+WARNING:django.request:Not Found: /train/4/
+WARNING:django.request:Not Found: /train/4/
+WARNING:django.request:Not Found: /train/4/
+WARNING:django.request:Not Found: /train/5/
+INFO:root:[2025.02.15 - 12:02:46] LOGIN AdMini ID 8
+WARNING:django.request:Not Found: /train/5/
+WARNING:django.request:Not Found: /train/5/
+WARNING:django.request:Not Found: /train/5/
+WARNING:django.request:Not Found: /train/5/
+WARNING:django.request:Not Found: /train/5/
+WARNING:django.request:Not Found: /train/5/
+WARNING:django.request:Not Found: /train/5/
+INFO:root:[2025.02.15 - 12:07:08] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 12:17:03] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 12:21:24] LOGIN AdMini ID 8
+INFO:root:[2025.02.15 - 15:02:29] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 14:46:54] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 14:52:42] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 14:53:27] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 14:54:05] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 15:02:34] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 15:05:11] LOGOUT AdMini ID 8
+INFO:root:[2025.02.16 - 15:05:35] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 297, in do_extends
+    raise TemplateSyntaxError(
+        "'%s' cannot appear more than once in the same template" % bits[0]
+    )
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 297, in do_extends
+    raise TemplateSyntaxError(
+        "'%s' cannot appear more than once in the same template" % bits[0]
+    )
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+        "'%s' tag with name '%s' appears more than once" % (bits[0], block_name)
+    )
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+        "'%s' tag with name '%s' appears more than once" % (bits[0], block_name)
+    )
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+        "'%s' tag with name '%s' appears more than once" % (bits[0], block_name)
+    )
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+        "'%s' tag with name '%s' appears more than once" % (bits[0], block_name)
+    )
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+        "'%s' tag with name '%s' appears more than once" % (bits[0], block_name)
+    )
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+ERROR:django.request:Internal Server Error: /tickets/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 26, in ticket_page
+    return render(request, 'tickets/ticket_page.html', context)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 297, in do_extends
+    raise TemplateSyntaxError(
+        "'%s' cannot appear more than once in the same template" % bits[0]
+    )
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+INFO:root:[2025.02.16 - 15:25:39] LOGIN AdMini ID 8
+WARNING:django.request:Not Found: /tickets/3/
+INFO:root:[2025.02.16 - 15:39:27] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 15:49:16] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 15:49:47] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 15:49:47] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:00:33] LOGIN AdMini ID 8
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+WARNING:django.request:Not Found: /tickets/3/
+INFO:root:[2025.02.16 - 16:01:11] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:20:03] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:20:30] LOGOUT AdMini ID 8
+INFO:root:[2025.02.16 - 16:20:48] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:31:22] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:39:21] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:39:22] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 16:39:23] LOGIN AdMini ID 8
+WARNING:django.request:Not Found: /media/trains-img/Mi.jpg
+INFO:root:[2025.02.16 - 17:23:12] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 17:23:13] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 17:23:25] LOGOUT AdMini ID 8
+INFO:root:[2025.02.16 - 17:23:31] LOGIN AdMini ID 8
+INFO:root:[2025.02.16 - 17:25:04] LOGOUT AdMini ID 8
+INFO:root:[2025.02.16 - 17:25:23] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 11:44:25] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 11:47:26] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 11:55:24] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 11:55:54] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 11:59:46] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 12:01:24] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/3/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+INFO:root:[2025.02.19 - 12:30:54] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 12:43:31] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 12:47:13] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 12:47:14] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 12:47:27] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 12:47:28] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 12:47:58] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 12:48:00] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 12:50:48] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 12:50:53] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 13:08:06] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 13:08:08] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 13:08:45] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 13:08:47] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 13:12:50] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 13:12:55] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 13:13:17] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 13:13:46] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 13:13:58] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 13:14:36] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 13:15:52] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 13:16:54] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 19:21:13] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:39:02] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 19:42:35] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 19:42:46] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 19:42:51] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 19:43:32] LOGOUT AdMini ID 8
+WARNING:django.security.csrf:Forbidden (CSRF token from POST incorrect.): /user/login/
+WARNING:django.security.csrf:Forbidden (CSRF token from POST incorrect.): /user/login/
+INFO:root:[2025.02.19 - 19:45:36] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 19:45:50] LOGIN SuperBaby ID 11
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/6/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:46:57] LOGOUT SuperBaby ID 11
+INFO:root:[2025.02.19 - 19:46:59] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:48:40] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 19:48:49] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 19:48:58] LOGOUT  ID None
+INFO:root:[2025.02.19 - 19:49:00] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:50:22] LOGOUT  ID None
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /user/login/
+WARNING:django.security.csrf:Forbidden (CSRF cookie not set.): /user/login/
+INFO:root:[2025.02.19 - 19:50:42] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/6/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:52:19] LOGOUT  ID None
+INFO:root:[2025.02.19 - 19:52:21] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:54:16] LOGOUT  ID None
+INFO:root:[2025.02.19 - 19:54:18] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/6/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 19:58:20] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 19:58:33] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 20:10:44] LOGOUT  ID None
+INFO:root:[2025.02.19 - 20:10:47] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 20:12:50] LOGOUT  ID None
+INFO:root:[2025.02.19 - 20:12:52] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 20:23:27] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 20:26:11] LOGOUT  ID None
+INFO:root:[2025.02.19 - 20:26:13] LOGIN AdMini ID 8
+INFO:root:[2025.02.19 - 20:29:59] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 20:30:18] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/6/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/2/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/2/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 20:44:50] LOGOUT  ID None
+INFO:root:[2025.02.19 - 20:44:52] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/7/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+WARNING:django.security.csrf:Forbidden (CSRF token from POST incorrect.): /admin/trains/train/
+WARNING:django.security.csrf:Forbidden (CSRF token from POST incorrect.): /admin/trains/train/
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 20:46:52] LOGOUT AdMini ID 8
+INFO:root:[2025.02.19 - 20:46:54] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 20:48:52] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 20:50:36] LOGOUT  ID None
+INFO:root:[2025.02.19 - 20:50:38] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/8/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.02.19 - 20:51:42] LOGIN AdMini ID 8
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/11/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/11/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /train/1/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\trains\views.py", line 20, in train_page
+    return render(request, 'trains/train_page.html', {'train': train})
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\defaulttags.py", line 1436, in url
+    kwargs[name] = parser.compile_filter(value)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '+2' from 'train.id+2'
+ERROR:django.request:Internal Server Error: /train/1/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\trains\views.py", line 20, in train_page
+    return render(request, 'trains/train_page.html', {'train': train})
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\defaulttags.py", line 1436, in url
+    kwargs[name] = parser.compile_filter(value)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '+2' from 'train.id+2'
+ERROR:django.request:Internal Server Error: /train/1/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\trains\views.py", line 20, in train_page
+    return render(request, 'trains/train_page.html', {'train': train})
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\defaulttags.py", line 1436, in url
+    kwargs[name] = parser.compile_filter(value)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '+2' from 'train.id+2'
+ERROR:django.request:Internal Server Error: /train/1/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\trains\views.py", line 20, in train_page
+    return render(request, 'trains/train_page.html', {'train': train})
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\defaulttags.py", line 1436, in url
+    kwargs[name] = parser.compile_filter(value)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(train.id+2)' from '(train.id+2)'
+ERROR:django.request:Internal Server Error: /train/1/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\trains\views.py", line 20, in train_page
+    return render(request, 'trains/train_page.html', {'train': train})
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\defaulttags.py", line 1436, in url
+    kwargs[name] = parser.compile_filter(value)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(train.id+2)' from '(train.id+2)'
+ERROR:django.request:Internal Server Error: /train/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\trains\views.py", line 20, in train_page
+    return render(request, 'trains/train_page.html', {'train': train})
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\defaulttags.py", line 1436, in url
+    kwargs[name] = parser.compile_filter(value)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(train.id+2)' from '(train.id+2)'
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+ERROR:django.request:Internal Server Error: /tickets/buy/11/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 14, in buy
+    return save_users_tickets(request, screening_id)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\save_users_tickets.py", line 8, in save_users_tickets
+    for place in dict(request.POST)['place']:
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'place'
+ERROR:django.request:Internal Server Error: /tickets/buy/9/
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\views.py", line 17, in buy
+    context['tickets'], context['screening'] = get_tickets_by_screening_id(screening_id)
+                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\tickets\services\get_tickets_by_screening_id.py", line 41, in get_tickets_by_screening_id
+    return TicketsCollector(screening_id).tickets, Screening.objects.select_related('poezd_id').get(id=screening_id)
+                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\DJ_Station Ч копи€\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+screenings.models.Screening.DoesNotExist: Screening matching query does not exist.
+INFO:root:[2025.03.08 - 20:13:06] LOGIN AdMini ID 8
+INFO:root:[2025.03.10 - 12:31:08] LOGOUT AdMini ID 8
+INFO:root:[2025.03.10 - 12:35:47] LOGIN AdMini ID 8
+INFO:root:[2025.03.10 - 12:39:42] LOGOUT AdMini ID 8

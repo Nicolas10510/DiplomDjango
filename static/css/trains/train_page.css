@@ -1,0 +1,39 @@
+.train-container{
+    display: flex;
+    gap: 2vw;
+    color: rgb(0, 0, 0);
+}
+
+.train-title-container{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.train-fields-container{
+    display: flex;
+    padding: 3vh 0;
+
+    flex-direction: column;
+    gap: 8vh;
+    /* border:3px #00B344  solid; */
+    /* justify-content: left; */
+}
+
+.train-description{
+    text-align: justify;
+    font-size: 1.1vw;
+    /* justify-content: left; */
+    margin-right: 90vh;
+}
+
+.train-buy-button{
+    align-self: flex-start;
+    font-size: 0.9vw;
+}
+
+/* .train-fon{
+    background-image: url("/media/trains-img/Frame9.png");
+    background-size: cover;
+} */
+

@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    Поезда
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/trains/active_list.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="color-title">ВЫБЕРИТЕ МАРШРУТ</h1>
+    <div class="train-container">
+    <!-- <div class="train-container-new"> -->
+    <!-- {% if next_trains %}
+        {% for train in next_trains %}
+            <p class="train-title">{{ train.title }}</p>
+            <a href="{% url 'trains:train_page' train_id=train.id %}" class="button">Подробнее</a>
+            <a href="{% url 'tickets:buy' screening_id=train.id %}" class="button movie-buy-button">Купить билет</a>
+        {% endfor %}
+    {% else %}     -->
+        <!-- <p>Нет актуальных направлений</p> -->
+
+        <div class="train-row">
+            <img class="train-ticket-image" src="/media/trains-img/Peter.jpg" alt="poster">
+            <p class="train-title">Тула - Санкт-Петербург</p>
+            <div>
+                <a href="{% url 'trains:train_page' train_id=2 %}" class="button">Подробнее</a>
+                <a href="{% url 'tickets:buy' screening_id=2 %}" class="button movie-buy-button button-distance">Купить билет</a>
+            </div>
+        </div>
+
+        <div class="train-row">
+            <img class="train-ticket-image" src="/media/trains-img/Vldk.jpeg" alt="poster">
+            <p class="train-title">Тула - Владикавказ</p>
+            <div class="distance-2">
+                <a href="{% url 'trains:train_page' train_id=3 %}" class="button">Подробнее</a>
+                <a href="{% url 'tickets:buy' screening_id=3 %}" class="button movie-buy-button button-distance">Купить билет</a>
+            </div>
+        </div>
+
+        <div class="train-row">
+            <img class="train-ticket-image" src="/media/trains-img/Bel.jpeg" alt="poster">
+            <p class="train-title">Тула - Белгород</p>
+            <div class="distance-3">
+                <a href="{% url 'trains:train_page' train_id=8 %}" class="button">Подробнее</a>
+                <a href="{% url 'tickets:buy' screening_id=10 %}" class="button movie-buy-button button-distance">Купить билет</a>
+            </div>
+        </div>
+
+        <div class="train-row">
+            <img class="train-ticket-image" src="/media/trains-img/Mo.jpeg" alt="poster">
+            <p class="train-title">Тула - Москва</p>
+            <div class="distance">
+                <a href="{% url 'trains:train_page' train_id=1 %}" class="button">Подробнее</a>
+                <a href="{% url 'tickets:buy' screening_id=1 %}" class="button movie-buy-button button-distance">Купить билет</a>
+            </div>
+        </div>
+
+        <div class="train-row">
+            <img class="train-ticket-image" src="/media/trains-img/Mi.jpeg" alt="poster">
+            <p class="train-title">Тула - Минск</p>
+            <div class="distance-4">
+                <a href="{% url 'trains:train_page' train_id=9 %}" class="button">Подробнее</a>
+                <a href="{% url 'tickets:buy' screening_id=11 %}" class="button movie-buy-button button-distance">Купить билет</a>
+            </div>
+        </div>
+        
+        
+
+    {% endif %} 
+    </div>
+
+    
+
+{% endblock %}

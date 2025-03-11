@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+<!-- заменил extends 'users/form.html' -->
+{% load static %}
+
+{% block title %}
+	Билет на поезд "{{ ticket.screening.film_id.title }}"
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/tickets/ticket_page.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="ticket-data-container">
+            <div class="ticket-place-container">
+                <div class="ticket-title">
+                    <h1>ЭЛЕКТРОННЫЙ БИЛЕТ</h1>
+                </div>
+                <div class="ticket-title-container">
+                    <p class="ticket-number-label">Направление:</p>
+                    <p class="ticket-number">{{ ticket.screening.poezd_id.title }}</p>
+                </div>
+                <div class="ticket-number-container">
+                    <p class="ticket-number-label">Отправление:</p>
+                    <p class="ticket-number">{{ ticket.screening.time|date:"j E" }} - {{ ticket.screening.time|date:"H:i" }}</p>
+                    <!-- <p>{{ ticket.screening.carriage }} вагон, {{ ticket.row }} купе, {{ ticket.place }} место</p> -->
+                </div>
+                <div class="ticket-number-container">
+                    <p class="ticket-number-label">Вагон:</p>
+                    <p class="ticket-number">{{ ticket.screening.carriage }}</p>
+                </div>
+                <div class="ticket-number-container">
+                    <p class="ticket-number-label">Купе:</p>
+                    <p class="ticket-number">{{ ticket.place }}</p>
+                </div>
+                <div class="ticket-number-container">
+                    <p class="ticket-number-label">Mесто:</p>
+                    <p class="ticket-number">{{ ticket.row }}</p>
+                </div>
+                <div class="ticket-number-container">
+                    <p class="ticket-number-label">Номер билета: </p>
+                    <p class="ticket-number">{{ ticket.id }}</p>
+                </div>
+                <div>
+                    <p class="disclaimer">Хорошего пути!</p>
+                </div>
+            </div>
+            <!-- <div>
+                <div class="ticket-number-container">
+                    <p class="ticket-number-label">Номер билета: </p>
+                    <p class="ticket-number">{{ ticket.id }}</p>
+                </div>
+                <p class="disclaimer">Хорошего пути!</p>
+            </div> -->
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,75 @@
+.train-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    flex-wrap: wrap;
+    margin: 5vh 0;
+    /* border: 3px solid black; */
+}
+
+.train-title{
+    /* text-align:center; */
+    text-align:left;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    font-size: 23px;
+}
+
+.color-title{
+    color: rgb(12, 12, 12);
+    font-size: 24px;
+    /* text-align: center; */
+    text-align: left;
+    /* margin-top: 6vh; */
+    /* background-color: rgb(76, 124, 142);
+    display: block; */
+
+    /* padding: 1vh 1vw; */
+    /* background-color:   rgba(76, 124, 142, 0.453); */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 96vh;
+}
+
+
+.train-container-new{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.train-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+
+    background-color:rgba(76, 124, 142, 0.453);
+    
+    width: 41vw;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.train-ticket-image{
+    height: 8vh;
+    /* border: 3px solid rgb(15, 146, 15); */
+    border-radius: 10px;
+}
+
+.distance{
+    margin-left: 115px;
+}
+
+.distance-2{
+    margin-left: 55px;
+}
+
+.distance-3{
+    margin-left: 95px;
+}
+
+.distance-4{
+    margin-left: 125px;
+}

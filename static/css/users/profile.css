@@ -1,0 +1,79 @@
+.profile-container{
+    display: flex;
+    gap: 21.8vw;
+    flex-direction: row-reverse;
+}
+
+.profile-container > * > h1{
+    margin-bottom: 3vh;
+}
+
+.profile-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+    color: rgb(255, 255, 255);
+}
+
+.profile-form-field{
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+
+    background-color: rgba(76, 124, 142, 0.597);
+    padding: 0.3vw 0.7vw;
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.profile-ticket{
+    background-color: rgba(76, 124, 142, 0.597);
+    width: 30vw;
+    /* размер билета */
+    padding: 1vw 3vw;
+    border-radius: 10px;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 12vh;
+    /* отступ билета от правого края */
+}
+
+.profile-ticket > div{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.profile-ticket-title{
+    font-size: 2vh;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-ticket-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-ticket-info > div{
+    display: flex;
+    gap: 1vw;
+    color: white;
+}
+
+.profile-ticket-image{
+    height: 10vh;
+    /* border: 3px solid rgb(15, 146, 15); */
+    border-radius: 10px;
+}
+
+.profile-tickets-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}

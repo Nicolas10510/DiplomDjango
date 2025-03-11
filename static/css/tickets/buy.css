@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    height: 65vh;
+    gap: 2vw;
+    color:rgb(1, 1, 1);
+
+    flex-direction: column;
+
+}
+
+.tickets-form{
+    /* align-self: center; */
+    align-self: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    /* align-items: flex-end; */
+    align-items: flex-start;
+
+    /* border: 1px solid rgb(123, 192, 59); */
+    margin-left: -30px;
+}
+
+.tickets-row-number{
+    width: 2vw;
+    text-align: end;
+}
+
+.tickets-place-number{
+    width: 2vw;
+    text-align: center;
+}
+
+.tickets-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5vw;
+    margin-bottom: 0.5vh;
+}
+
+.tickets-complete-button{
+    width: 7vw;
+    background-color:  rgba(76, 124, 142, 0.754);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 40.5vh;
+}
+
+input[type=checkbox]{
+    -webkit-appearance: none;
+    width: 1vw;
+    height: 2vw;
+    background:rgba(76, 124, 142, 0.453);
+    border: none;
+}
+
+input[type=checkbox][disabled]{
+    -webkit-appearance: none;
+    width: 1vw;
+    height: 2vw;
+    background: white;
+}
+
+input[type=checkbox]:checked{
+    -webkit-appearance: none;
+    width: 1vw;
+    height: 2vw;
+    background: black;
+}
+
+.train-card{
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 2vh;
+    
+}
+
+.train-card-title-container{
+    display: flex;
+    gap: 1vw;
+    height: fit-content;
+    align-items: center;
+}
+
+.train-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.train-card-title{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.tickets-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-self: flex-start; */
+    /* border: 1px solid rgb(123, 192, 59); */
+    margin-top: 5vh;
+}
